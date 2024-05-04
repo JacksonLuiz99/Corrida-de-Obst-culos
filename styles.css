@@ -2,59 +2,62 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #f2f2f2;
+    background-color: #f2f2;
     overflow: hidden;
-  }
-  
-  #gameCanvas {
+}
+
+#gameCanvas {
     display: block;
     margin: 0 auto;
     border: 2px solid #000;
-    background-color: #fff;
+    background-color: cadetblue;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  }
-  
-  #instructions {
+}
+
+#instructions {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #333;
-  }
-  
-  #instructions h2 {
+}
+
+#instructions h2 {
     font-size: 36px;
     margin-bottom: 20px;
-  }
-  
-  #instructions p {
+}
+
+#instructions p {
     font-size: 18px;
-  }
-  
-  #score,
-  #lives {
+}
+
+#score,
+#lives {
     position: absolute;
     font-size: 24px;
     color: #fff;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-  }
-  
-  #score {
+}
+
+#score {
     top: 10px;
     left: 10px;
-  }
-  
-  #lives {
+}
+
+#lives {
     top: 10px;
     right: 10px;
-  }
-  
-  .obstacle {
+}
+
+.obstacle {
     background-color: #ff6347;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
+}
+
+h2 {
+    padding-top: 50px;
+}
